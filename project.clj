@@ -1,6 +1,6 @@
 (defproject yet-another-battle-city "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Remake of the classic video game Battle City for the Clojure course at FMI"
+  :url "https://github.com/mdimitrova/yet-another-battle-city"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]]
