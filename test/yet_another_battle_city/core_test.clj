@@ -1,6 +1,6 @@
 (ns yet-another-battle-city.core-test
-  (:require [clojure.test :refer :all]
-            [yet-another-battle-city.core :refer :all]))
+  (:use clojure.test
+        yet-another-battle-city.core))
 
 (deftest a-test
   (testing "FIXME, I fail."
