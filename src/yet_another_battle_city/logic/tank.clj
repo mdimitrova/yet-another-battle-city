@@ -2,11 +2,9 @@
   (:require [yet-another-battle-city.global-setup :as gs]))
 
 (defn define-tank
-  "creates a new tank with the given position, direction and lives"
-  [position direction lives tank-type]
-  (let [tank {:position position :direction direction :lives lives :tank tank-type}]
-    (reset! gs/enemy-tanks (conj @gs/enemy-tanks tank))
-    (dissoc tank :position)))
+  "creates a new tank with the gives direction and lives"
+  [direction lives tank-type]
+  {:direction direction :lives lives :tank tank-type})
 
 (defn lose-live
   "decrements tank's lives"
