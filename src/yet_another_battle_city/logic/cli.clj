@@ -26,4 +26,4 @@
         (doseq [x (range width)]
           (reset! result (concat @result (get-symbol field [x y]))))
         (reset! result (concat @result "|\n"))))
-    (prn (apply str @result))))
+    (println (apply str @result))))
